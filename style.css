@@ -1,0 +1,132 @@
+/* Overall Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #343a40;
+    background-color: #f0f4f8;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(135deg, #2a9d8f, #e9c46a);
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.75rem;
+    color: #2a9d8f;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #264653;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2a9d8f;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 1rem;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Box Styles */
+.weather-box, .news-box, .movies-box, .facts-box, .recipes-box {
+    background-color: #2a9d8f; /* Change color for each box as needed */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.news-box {
+    background-color: #264653;
+}
+
+.movies-box {
+    background-color: #e76f51;
+}
+
+.facts-box {
+    background-color: #f9c74f;
+    color: #333333;
+}
+
+.recipes-box {
+    background-color: #90be6d;
+}
+
+/* Hover Effect */
+.weather-box:hover, .news-box:hover, .movies-box:hover, .facts-box:hover, .recipes-box:hover {
+    transform: scale(1.05);
+}
+
+/* Box Title */
+.box-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Box Content */
+.box-content {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-light {
+    background-color: #ffffff;
+    color: #264653;
+    border-radius: 5px;
+}
+
+.btn-light:hover {
+    background-color: #f0f4f8;
+}
+
+.route {
+    text-decoration: none !important;
+    color: antiquewhite !important;
+}

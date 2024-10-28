@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - DailyVibe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .recipe-results {
+            margin-top: 20px;
+        }
+
+        .recipe {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .recipe img {
+            width: 300px;
+            height: 250px;
+            border-radius: 5px;
+        }
+
+        .recipe h2 {
+            color: #333;
+        }
+
+        .recipe p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">DailyVibe</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="weather.html">Weather</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="movies.html">Movies & TV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="facts.html">Fun Facts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light text-center py-5">
+        <h1 class="display-4">Recipes</h1>
+        <p class="lead">Find delicious recipes tailored to your tastes.</p>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <div class="recipes-box">
+                    <div class="container">
+                        <h1>Recipe Finder</h1>
+                        <input type="text" id="searchInput" placeholder="Enter an ingredient (e.g., chicken)">
+                        <button onclick="searchRecipe()">Search</button>
+
+                        <div id="recipeResults" class="recipe-results">
+                            <!-- Recipe information will be displayed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 DailyVibe - All Rights Reserved</p>
+    </footer>
+    <script src="recipes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
